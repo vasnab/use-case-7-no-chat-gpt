@@ -106,6 +106,5 @@ namespace StudentsUseCase7Tests
             //Act & Assert
             Assert.Throws<ArgumentNullException>(() => sut.ConvertStudents(null));
         }
-
     }
 }
